@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with Captcha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        
+<h1>Contect Form With Captcha </h1>
+<form name="logform">
+
+<input type="text" name="user" placeholder="Username">
+<input placeholder="Your Email Address" type="email" tabindex="2" required>
+<input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+<textarea placeholder="Type your message here...." tabindex="5" required style="width: 713px; height: 144px;"></textarea>
+
+
+</form >
+
+<div class="wrapper">
+<div class="captcha-area">
+ 
+
+    <div class="captcha-img">
+        <img src="captcha-bg.jpg" alt="Captch background">
+        <span class="captcha"></span>
+
+
+    </div>
+
+</div>
+
+<form action="#" class="input-area">
+
+
+<input type="text" placeholder="Enter captcha" maxlength="6" spellcheck="false" required >
+
+<button class="reload-btn"><i class="fas fa-redo-alt"></i></button>
+
+ <button class="submit-btn">Submit</button>
+
+
+
+
+
+</form>
+
+
+
+<div class="status-text"></div>
+
+<script src="script.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
